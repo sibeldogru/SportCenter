@@ -108,8 +108,7 @@ Each category is represented proportionally across a percentage-based arrow move
 **Sibel Doğru**  
 Created as part of the **Patika+ Full-Stack Web Development Bootcamp**.
 
-📧 Contact: _add your email here_  
-🔗 Portfolio / GitHub: _add your links here_  
+📧 Contact: sibeldogru@gmail.com
 
 ---
 
