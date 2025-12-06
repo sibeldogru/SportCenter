@@ -9,7 +9,10 @@ The project features smooth navigation, scroll-based section alignment, a dynami
 
 ## 📸 Preview
 
-![Sport Center Screenshot](https://i.imgur.com/VrtSdIb.gif))  
+![Sport Center Screenshot](https://i.imgur.com/VrtSdIb.gif)
+(https://i.imgur.com/zB25jaB.jpeg)
+(https://i.imgur.com/Dky7262.jpeg)
+(https://i.imgur.com/2yxDPr3.jpeg)
 
 ---
 
@@ -57,6 +60,80 @@ The project features smooth navigation, scroll-based section alignment, a dynami
 | **Font Awesome** | Icons |
 | **Netlify** | Hosting |
 
+---
 
-## 📂 Project Structure
+
+## 📱 Responsive Behavior
+
+The website includes custom breakpoints:
+
+### **Desktop (≥ 576px)**
+- Large padded layout  
+- Wide containers  
+- Hover animations  
+
+### **Mobile (< 576px)**
+- Reduced padding for readability  
+- Collapsible navigation drawer  
+- Re-styled sections  
+- Custom scroll-margin offsets  
+
+---
+
+## 🧮 BMI Calculator Logic
+
+The BMI result is mapped to the chart using a custom algorithm:
+
+- **Underweight**  
+- **Normal**  
+- **Overweight**  
+- **Obese**  
+- **Extremely Obese**
+
+Each category is represented proportionally across a percentage-based arrow movement.
+
+---
+
+## 📌 Future Improvements
+
+- Dark mode toggle  
+- Form submission backend  
+- Class filtering animations  
+- Improved accessibility (ARIA labels, keyboard navigation)  
+
+---
+
+## 👩‍💻 Author
+
+**Sibel Doğru**  
+Created as part of the **Patika+ Full-Stack Web Development Bootcamp**.
+
+📧 Contact: _add your email here_  
+🔗 Portfolio / GitHub: _add your links here_  
+
+---
+
+## ⭐ License
+
+This project is open-source and free to use.
+
+---
+
+## 🙌 Acknowledgements
+
+- Patika+ Bootcamp Team  
+- Google Fonts  
+- Font Awesome  
+- Netlify for hosting  
+
+---
+
+## 🌐 Live Demo Again
+
+👉 **https://sportcenterforpatika.netlify.app/**  
+
+---
+
+Enjoy the project! Feel free to fork, modify, and build on top of it 🚀
+
 
