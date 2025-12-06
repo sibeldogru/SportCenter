@@ -17,17 +17,7 @@ html {
 }
 
 html {
-scroll-behavior: smooth;
-}
-
-#classes,  /*to prevent parts of sections staying under the navbar*/
-#bmi,
-#trainers,
-#purchase,
-#reviews {
-    scroll-margin-top: 50px;
-    padding-top: 50px;
-    margin-top: -50px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -42,6 +32,16 @@ body {
     padding: 0 250px;
     box-sizing: border-box;
 }
+
+#classes,
+#bmi,
+#trainers,
+#purchase,
+#reviews,
+#contact {
+    scroll-margin-top: 100px;  
+}
+
 
 /*navbar start*/
 nav {
@@ -782,7 +782,7 @@ nav ul li button a {
 
 /*review start*/
 
-.review {
+.reviews {
     background: var(--backgroundColor-2);
     padding: 40px 0 100px;
 }
@@ -889,7 +889,7 @@ nav ul li button a {
 /*contact start*/
 
 .contact-container {
-    padding-top: 150px;
+    padding-top: 50px;
     flex: 1;
     box-sizing: border-box;
 }
@@ -1044,18 +1044,13 @@ nav ul li button a {
         overflow-x: hidden;
     }
 
-   #home, #classes, #trainers, #purchase, #reviews, #contact {
-        scroll-margin-top: 10px;
-    }
-
-    .classes-container,
-    .trainer-container,
-    .purchase-container,
-    .bmi-container,
-    .review,
-    .contact-container {
-        padding-top: 30px !important;
-        padding-bottom: 40px !important;
+    #classes,
+    #bmi,
+    #trainers,
+    #purchase,
+    #reviews,
+    #contact {
+        scroll-margin-top: 70px !important;
     }
 
     /*navbar*/
@@ -1138,11 +1133,6 @@ nav ul li button a {
 
     body.menu-open {
         overflow: hidden;
-    }
-
-    #home, #classes, #bmi, #trainers, #purchase, #reviews, #contact {
-        scroll-margin-top: 60px;
-       
     }
 
     /*home*/
@@ -1282,7 +1272,6 @@ nav ul li button a {
 
     .calculation-container h3 {
         font-size: 32px;
-        margin: 0 auto;
     }
 
     .calculation-container p {
@@ -1298,6 +1287,7 @@ nav ul li button a {
 
     .bmi-right {
         padding-top: 5px;
+        padding-bottom: 20px;
     }
 
     .bmi-right h5 {
@@ -1344,14 +1334,23 @@ nav ul li button a {
 
     /* trainers section */
 
+    .trainer-container h2 {
+        padding-top: 40px;
+    }
+
     .trainer-photos-container {
         flex-direction: column;
-        padding-top: 10px;
     }
 
     .photo-box {
         margin: 20px auto;
         max-width: 280px;
+    }
+
+    /*purchase section*/
+
+    .purchase-container {
+        padding: 40px 20px !important;
     }
 
     .purchase-items {
@@ -1367,18 +1366,22 @@ nav ul li button a {
 
     /* review section */
     .reviews {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+    }
+
+    .review-container h1 {
+        padding-top: 20px;
     }
 
     .client-reviews {
         align-items: center;
         flex-direction: column;
-        margin-bottom: 30px;
     }
 
     .client-box {
         width: 100%;
         max-width: 350px;
+        padding-bottom: 20px;
     }
 
     .review-text {
@@ -1390,7 +1393,7 @@ nav ul li button a {
     .triangle-right {
         width: 40px;
         height: 35px;
-        bottom: -34px;
+        bottom: -15px;
     }
 
     /* contact section */
@@ -1420,4 +1423,3 @@ nav ul li button a {
         padding-bottom: 10px;
     }
 }
-
