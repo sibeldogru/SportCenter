@@ -7,13 +7,6 @@ The project features smooth navigation, scroll-based section alignment, a dynami
 
 ---
 
-## 📸 Preview
-
-![Sport Center Screenshot](https://i.imgur.com/H5pHfY4.jpeg)
-(https://i.imgur.com/QiWBtvQ.jpeg)
-(https://i.imgur.com/NjJOqu9.jpeg)
-
----
 
 ## 🎯 Features
 
